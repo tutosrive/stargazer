@@ -4,4 +4,5 @@ title: "My GitHub Stars"
 description: "All my GitHub Stars. Repositorios geniales que he guardado en GitHub."
 author: tutosrive
 
+icon: "./assets/icon.png"
 image: "./assets/preview.png"
