@@ -10,9 +10,9 @@
 <link rel="icon" type="image/png" href="{{ site.icon | default: '/assets/icon.png' | relative_url }}">
 
 <!-- Social preview image -->
-<meta property="og:image" content="{{ site.image | default: '/assets/preview.png' | relative_url }}">
+<meta property="og:image" content="{{ site.image | default: '/assets/preview.png' | relative_url }}?v={{ site.time | date: '%s' }}">
 <meta property="og:image:alt" content="{{ site.title | escape }}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ site.image | default: '/assets/preview.png' | relative_url }}">
+<meta name="twitter:image" content="{{ site.image | default: '/assets/preview.png' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 <!-- end custom head snippets -->
