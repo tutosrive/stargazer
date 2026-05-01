@@ -3,9 +3,12 @@ name: Stargazer
 
 on:
   schedule:
-    - cron: '42 2 * * *'
+    - cron: '0 2,14 * * *'
 
   workflow_dispatch:
+
+  repository_dispatch:
+    types: [update-stars]
 
 permissions:
   contents: write
