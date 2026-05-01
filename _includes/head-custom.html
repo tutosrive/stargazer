@@ -1,0 +1,18 @@
+<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+{% include head-custom-theme-colors.html %}
+
+<!-- Setup Google Analytics -->
+{% include head-custom-google-analytics.html %}
+
+<!-- Site favicon -->
+<link rel="icon" type="image/png" href="{{ site.icon | default: '/assets/icon.png' | relative_url }}">
+
+<!-- Social preview image -->
+<meta property="og:image" content="{{ site.image | default: '/assets/preview.png' | relative_url }}">
+<meta property="og:image:alt" content="{{ site.title | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.image | default: '/assets/preview.png' | relative_url }}">
+
+<!-- end custom head snippets -->
